@@ -3,13 +3,14 @@
     <html>
       <head>
         <meta charset="UTF-8"/>
-        <title>Kepler.gl embedded map</title>
+        <title>Conectividad Digital</title>
 
         <!--Uber Font-->
         <link rel="stylesheet" href="https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/uber-fonts/4.0.0/superfine.css">
 
         <!--MapBox css-->
         <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="https://webstockreview.net/images/wifi-icon-png-14.png"/>
 
         <!-— facebook open graph tags -->
         <meta property="og:url" content="http://kepler.gl/" />
@@ -174,7 +175,7 @@
               return react.createElement(
                 'div',
                 {style: {position: 'absolute', left: 0, width: '100vw', height: '100vh'}},
-                
+
                 react.createElement(keplerGl.KeplerGl, {
                   mapboxApiAccessToken: mapboxToken,
                   id: "map",
@@ -226,4 +227,3 @@
         </script>
       </body>
     </html>
-  
